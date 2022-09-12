@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Contact App</string>
+    <string name="btn">Create</string>
+    <string name="name1">Please enter name</string>
+    <string name="phone2">Please enter your phone number</string>
+    <string name="web3">Please Enter Web</string>
+    <string name="location1">Please enter Location</string>
+    <string name="createbutton">Create Contact</string>
+    <string name="angryface">Angry face</string>
+    <string name="happyCface">Happy Face</string>
+    <string name="okayface">Okay Face</string>
+
+</resources>

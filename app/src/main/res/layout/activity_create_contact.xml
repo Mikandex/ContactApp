@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingBottom="@dimen/paddingTop"
+        android:padding="@dimen/padding" android:paddingTop="@dimen/paddingTop">
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/name1"
+            android:ems="10"
+            android:paddingBottom="@dimen/paddingTop"
+            android:id="@+id/edname" android:padding="@dimen/padding" android:paddingTop="@dimen/paddingTop"
+            android:textColorHint="#616161" android:autofillHints=""/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/phone2"
+            android:ems="10"
+            android:paddingBottom="@dimen/paddingTop"
+            android:id="@+id/edphone" android:padding="@dimen/padding" android:paddingTop="@dimen/paddingTop"
+            android:autofillHints="" android:textColorHint="#616161"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/web3"
+            android:ems="10"
+            android:paddingBottom="@dimen/paddingTop"
+            android:id="@+id/ediweb" android:padding="@dimen/padding" android:paddingTop="@dimen/paddingTop"
+            android:autofillHints="" android:textColorHint="#616161"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/location1"
+            android:ems="10"
+            android:id="@+id/edlocation"
+            android:padding="@dimen/padding"
+            android:paddingBottom="@dimen/paddingTop"
+            android:paddingTop="@dimen/paddingTop"
+            android:autofillHints="" android:textColorHint="#616161"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/paddingTop"
+            android:layout_height="match_parent" android:clickable="true" android:focusable="true">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/happy" android:id="@+id/happyc"
+                android:layout_weight="1" android:clickable="true" android:contentDescription="@string/happyCface"
+                tools:ignore="ImageContrastCheck" android:minHeight="48dp" android:focusable="true"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/okay" android:id="@+id/okay"
+                android:layout_weight="1" android:clickable="true" android:contentDescription="@string/angryface"
+                android:minHeight="48dp" android:focusable="true"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/angry" android:id="@+id/angry"
+                android:layout_weight="1" android:clickable="true" android:contentDescription="@string/okayface"
+                android:minHeight="48dp" android:focusable="true"/>
+    </LinearLayout>
+</LinearLayout>
